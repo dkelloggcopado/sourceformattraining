@@ -17,6 +17,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Favorite_Golf_Course__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Custom_Object_1__c.CO1_Date_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
