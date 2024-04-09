@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Send_Email</name>
-        <label>Send Email</label>
+        <name>Send_Email_to_QA</name>
+        <label>Send Email to QA</label>
         <locationX>264</locationX>
         <locationY>350</locationY>
-        <actionName>copado__Promotion__c.Notify_QA_of_User_Story_Testing</actionName>
+        <actionName>copado__Promoted_User_Story__c.V2_QA_Email_Alert</actionName>
         <actionType>emailAlert</actionType>
         <connector>
             <targetReference>Loop_1</targetReference>
@@ -17,7 +17,7 @@
                 <elementReference>Loop_1.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>copado__Promotion__c.Notify_QA_of_User_Story_Testing</nameSegment>
+        <nameSegment>copado__Promoted_User_Story__c.V2_QA_Email_Alert</nameSegment>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>60.0</apiVersion>
@@ -32,7 +32,7 @@
         <collectionReference>Get_Records</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
-            <targetReference>Send_Email</targetReference>
+            <targetReference>Send_Email_to_QA</targetReference>
         </nextValueConnector>
     </loops>
     <processMetadataValues>
