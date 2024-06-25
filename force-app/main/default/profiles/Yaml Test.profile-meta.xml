@@ -7,6 +7,10 @@
         <endAddress>47.35.110.121</endAddress>
         <startAddress>47.35.110.121</startAddress>
     </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>47.35.110.129</endAddress>
+        <startAddress>47.35.110.123</startAddress>
+    </loginIpRanges>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
