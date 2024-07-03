@@ -4,6 +4,7 @@ public class AccountAutomations {
         Else {
             a.Description = 'Default description';
             return a;
+            //need to check this comment
         }
     }
     public static Account setDefaultSite(Account a){
