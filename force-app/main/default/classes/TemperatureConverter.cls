@@ -11,5 +11,6 @@ public class TemperatureConverter {
         // Formula: (°C × 9/5) + 32 = °F
         if (celsius == null) return null;
         return (celsius * 9/5) + 32;
+        //Adding a comment for pull request 2
     }
 }

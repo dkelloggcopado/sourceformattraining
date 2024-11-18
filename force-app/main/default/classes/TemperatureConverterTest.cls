@@ -27,5 +27,6 @@ private class TemperatureConverterTest {
         // Test case 3: Null input
         fahrenheit = TemperatureConverter.celsiusToFahrenheit(null);
         System.assertEquals(null, fahrenheit, 'Null input should return null');
+        //Adding comment for pull request 2
     }
 }
